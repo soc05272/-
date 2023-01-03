@@ -1,0 +1,7 @@
+5
+1	database	yu	23000	1111
+2	c++	kim	21000	2222
+3	java	kang	19000	3333
+4	python	yu	45000	4444
+5	network	lee	35000	5555
+

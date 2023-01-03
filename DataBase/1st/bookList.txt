@@ -1,0 +1,4 @@
+3
+1	database	yu	23000
+2	c++	kim	21000
+3	java	kang	19000

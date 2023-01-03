@@ -1,0 +1,57 @@
+// 읽기전용(r) : 파일이 없으면 NULL 반환, 있으면 정상동작
+
+FILE *fp;
+fp = fopen("~/sp/text.txt", "r");
+if(fp == NULL)
+{
+	printf("파일읽기 오류\n");
+}
+
+
+// 쓰기전용(w) : 파일이 없으면 새로생성, 있으면 기존 내용 삭제
+
+FILE *fp;
+fp = fopen("~/sp/text.txt", "w");
+if(fp == NULL)
+{
+	printf("파일읽기 오류\n");
+}
+
+// 추가 쓰기(a) : 파일이 없으면 새로생성, 있으면 기존 내용 뒤에 추가
+
+FILE *fp;
+fp = fopen("~/sp/text.txt", "a");
+if(fp == NULL)
+{
+	printf("파일읽기 오류\n");
+}
+
+
+// 읽기와 쓰기(r+) : 파일이 없으면 NULL 반환, 있으면 정상동작
+
+FILE *fp;
+fp = fopen("~/sp/text.txt", "r+");
+if(fp == NULL)
+{
+	printf("파일읽기 오류\n");
+}
+
+
+// 읽기와 쓰기(w+) : 파일이 없으면 새로생성, 있으면 기존 내용 삭제
+
+FILE *fp;
+fp = fopen("~/sp/text.txt", "w+");
+if(fp == NULL)
+{
+	printf("파일읽기 오류\n");
+}
+
+
+// 추가를 위한 읽기와 쓰기(a+) : 파일이 없으면 새로생성, 있으면 기존 내용 뒤에 추가
+
+FILE *fp;
+fp = fopen("~/sp/text.txt", "a+");
+if(fp == NULL)
+{
+	printf("파일읽기 오류\n");
+}
